@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f3d9d933;
+  width: 30%;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.search-icon {
+  margin-right: 4px;
+}
+
+.search-container form {
+  flex: 1;
+}
+
+.search-input {
+  font-family: "Nunito Sans", sans-serif;
+
+  border: none;
+  width: 100%;
+  padding: 1rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
